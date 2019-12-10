@@ -3,23 +3,56 @@ h1 {
   position: absolute;
 }
 
-#rainbow-violet,
-#rainbow-indigo,
-#rainbow-blue,
-#rainbow-green,
-#rainbow-yellow,
-#rainbow-orange,
 #rainbow-red {
   animation: stroke 10s linear forwards;
   stroke-dasharray: 1012px;
   stroke-dashoffset: 1012px;
 }
 
-#narwal-eye,
-#narwal-body {
+#rainbow-blue {
+  animation: stroke 10s linear forwards;
+  stroke-dasharray: 1012px;
+  stroke-dashoffset: 1012px;
+}
+
+#rainbow-violet {
+  animation: stroke 10s linear forwards;
+  stroke-dasharray: 1012px;
+  stroke-dashoffset: 1012px;
+}
+
+#rainbow-orange {
+  animation: stroke 10s linear forwards;
+  stroke-dasharray: 1012px;
+  stroke-dashoffset: 1012px;
+}
+
+#rainbow-yellow {
+  animation: stroke 10s linear forwards;
+  stroke-dasharray: 1012px;
+  stroke-dashoffset: 1012px;
+}
+
+#rainbow-green {
+  animation: stroke 10s linear forwards;
+  stroke-dasharray: 1012px;
+  stroke-dashoffset: 1012px;
+}
+
+#rainbow-indigo {
+  animation: stroke 10s linear forwards;
+  stroke-dasharray: 1012px;
+  stroke-dashoffset: 1012px;
+}
+
+#narwhal-body {
   animation: stroke 1s linear forwards;
   stroke-dasharray: 1012px;
   stroke-dashoffset: 1012px;
+}
+
+#narwhal-eye {
+  opacity: .5;
 }
 
 @keyframes stroke {
